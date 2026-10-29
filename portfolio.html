@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d091b">
+  <meta name="description" content="Deva Nanda's cosmic developer portfolio">
+  <title>Devananda | Cosmic Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <div class="space-bg" aria-hidden="true">
+    <div id="stars"></div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a class="logo" href="#home">✦ Deva Nanda T.B<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#intro">Introduction</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Switch to light theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero container">
+      <div class="hero-text reveal">
+        <p class="eyebrow">✦ BCA STUDENT / FUTURE BUILDER</p>
+
+        <h1>
+          Curious mind.<br>
+          <span class="gradient">Cosmic ideas.</span>
+        </h1>
+
+        <p class="description">
+          Hi, I'm <strong>Deva Nanda T.B</strong> — a BCA student exploring
+          technology, creative design, and exciting digital experiences.
+          Welcome to my little corner of the universe.
+        </p>
+
+        <div class="buttons">
+          <a href="#projects" class="btn primary">Explore My Work ↗</a>
+          <a href="#contact" class="btn secondary">Contact Me →</a>
+        </div>
+
+        <p class="hero-note">✧ Always learning &nbsp; · &nbsp; Always exploring</p>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <article class="profile-card">
+          <div class="card-top">
+            <span>● CURRENTLY EVOLVING</span>
+            <span>•••</span>
+          </div>
+
+          <div class="photo-frame">
+            <img
+              src="deva..jpeg"
+              alt="Portrait of Deva Nanda T.B"
+              onerror="this.onerror=null;this.src='profile-placeholder.svg';"
+            >
+          </div>
+
+          <h2>Deva Nanda T.B ✦</h2>
+          <p class="muted">BCA Student · Creative Thinker</p>
+
+          <div class="card-bottom">
+            <span>LOCATION: Banglore</span>
+            <span>STATUS: LEARNING</span>
+          </div>
+        </article>
+
+        <div class="floating-note note-one">✧ Dream in pixels</div>
+        <div class="floating-note note-two">&lt;/&gt; Build with purpose</div>
+      </div>
+
+      <a class="scroll-cue" href="#about">↓ SCROLL TO EXPLORE</a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section container">
+      <p class="eyebrow reveal">01 / THE PERSON BEHIND THE SCREEN</p>
+      <h2 class="section-title reveal">
+        A little about <span class="gradient">me.</span>
+      </h2>
+
+      <div class="about-grid">
+        <article class="glass about-main reveal">
+          <span class="big-icon">✦</span>
+          <h3>Learning, creating,<br>and connecting dots.</h3>
+
+          <p>
+            I'm a Bachelor of Computer Applications (BCA) student
+            interested in technology, user interfaces, and creative
+            problem-solving.
+          </p>
+
+          <p>
+            I enjoy discovering how digital experiences are designed
+            and built. My goal is to keep learning, work on meaningful
+            projects, and turn ideas into useful experiences.
+          </p>
+
+          <div class="tags">
+            <span>Curiosity</span>
+            <span>Creativity</span>
+            <span>Learning</span>
+          </div>
+        </article>
+
+        <div class="about-side">
+          <article class="glass mini-card reveal">
+            <span class="mini-icon">⌘</span>
+            <div>
+              <h3>My Approach</h3>
+              <p>Stay curious, practise consistently, and improve every project.</p>
+            </div>
+          </article>
+
+          <article class="glass mini-card reveal">
+            <span class="mini-icon">◎</span>
+            <div>
+              <h3>My Interests</h3>
+              <p>UI/UX design, web experiences, and useful digital tools.</p>
+            </div>
+          </article>
+
+          <article class="glass mini-card reveal">
+            <span class="mini-icon">↗</span>
+            <div>
+              <h3>My Goal</h3>
+              <p>Build practical projects and grow into a creative professional.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section id="intro" class="section container">
+      <p class="eyebrow reveal">02 / TRANSMISSION RECEIVED</p>
+      <h2 class="section-title reveal">
+        Welcome to my <span class="gradient">universe.</span>
+      </h2>
+
+      <article class="glass intro-card reveal">
+        <div class="intro-symbol">✧</div>
+
+        <div>
+          <p class="eyebrow">TRANSMISSION 001</p>
+          <h3>Technology is more than code.</h3>
+
+          <p class="muted">
+            To me, technology is a way to turn questions into experiences.
+            As a BCA student, I'm building my understanding of computing
+            while exploring design, usability, and creative digital
+            solutions. Every project is an opportunity to learn something
+            new and improve the way I think.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <p class="eyebrow reveal">03 / CONSTELLATION MAP</p>
+      <h2 class="section-title reveal">
+        Skills in my <span class="gradient">orbit.</span>
+      </h2>
+      <p class="muted reveal">
+        Select a star to explore a skill I'm learning.
+      </p>
+
+      <div class="skills-layout">
+        <div class="constellation glass reveal">
+          <svg viewBox="0 0 500 350" preserveAspectRatio="none"
+            aria-hidden="true">
+            <line x1="75" y1="90" x2="250" y2="55"/>
+            <line x1="250" y1="55" x2="420" y2="100"/>
+            <line x1="75" y1="90" x2="170" y2="250"/>
+            <line x1="170" y1="250" x2="370" y2="275"/>
+            <line x1="420" y1="100" x2="370" y2="275"/>
+            <line x1="250" y1="55" x2="370" y2="275"/>
+          </svg>
+
+          <button class="skill-star star-html active" data-skill="html"
+            aria-pressed="true">
+            <span class="star-dot"></span>HTML & CSS
+          </button>
+
+          <button class="skill-star star-design" data-skill="design"
+            aria-pressed="false">
+            <span class="star-dot"></span>UI / UX
+          </button>
+
+          <button class="skill-star star-js" data-skill="js"
+            aria-pressed="false">
+            <span class="star-dot"></span>JavaScript
+          </button>
+
+          <button class="skill-star star-python" data-skill="python"
+            aria-pressed="false">
+            <span class="star-dot"></span>Python
+          </button>
+
+          <button class="skill-star star-tools" data-skill="tools"
+            aria-pressed="false">
+            <span class="star-dot"></span>Tools & Git
+          </button>
+
+          <div class="constellation-center">D<span>✦</span></div>
+        </div>
+
+        <article class="glass skill-detail reveal" aria-live="polite">
+          <span class="big-icon" id="skillIcon">⌘</span>
+          <p class="eyebrow" id="skillNumber">SKILL 01 / 05</p>
+          <h3 id="skillTitle">HTML & CSS</h3>
+          <p class="muted" id="skillDescription">
+            Learning to build responsive web pages with semantic HTML,
+            attractive layouts, and polished styling.
+          </p>
+
+          <div class="level-heading">
+            <span>Learning journey</span>
+            <span id="skillLevelText">Growing</span>
+          </div>
+
+          <div class="level-track">
+            <span id="skillLevelBar"></span>
+          </div>
+
+          <p class="muted skill-note" id="skillNote">
+            Focus: responsive layouts and accessibility.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <p class="eyebrow reveal">04 / FIELD NOTES</p>
+      <h2 class="section-title reveal">
+        Projects from the <span class="gradient">universe.</span>
+      </h2>
+      <p class="muted reveal">
+        Explore my project concepts and learning experiments.
+      </p>
+
+      <div class="projects-grid">
+
+        <article class="project-card glass reveal">
+          <div class="project-art art-one"><span>✦</span></div>
+
+          <div class="project-content">
+            <p class="eyebrow">01 / WEB EXPERIENCE</p>
+            <h3> Website creation</h3>
+            <p class="muted">
+              Designing and developing modern, responsive websites with creative layouts and smooth interactions.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <button class="expand-btn" aria-expanded="false">
+              Explore project <span>＋</span>
+            </button>
+
+            <div class="project-details" hidden>
+              <h4>Project Details</h4>
+              <p class="muted">
+                Designed around accessible information, useful resources,
+                and simple educational interactions.
+              </p>
+              <p class="muted">
+                Learning focus: responsive layouts and content hierarchy.
+              </p>
+            </div>
+          </div>
+        </article>
+
+
+
+        <article class="project-card glass reveal">
+          <div class="project-art art-three"><span>◎</span></div>
+
+          <div class="project-content">
+            <p class="eyebrow">03 / INTERACTIVE LAB</p>
+            <h3>Cosmic Portfolio</h3>
+            <p class="muted">
+              A personal portfolio experiment featuring an animated
+              starfield, interactive skills, and a secret terminal.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <button class="expand-btn" aria-expanded="false">
+              Explore project <span>＋</span>
+            </button>
+
+            <div class="project-details" hidden>
+              <h4>Project Details</h4>
+              <p class="muted">
+                An interactive personal website built with beginner-friendly
+                front-end technologies.
+              </p>
+              <p class="muted">
+                Learning focus: DOM events, CSS animations, and responsive design.
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+     
+    </section>
+
+    <!-- DEVELOPER TERMINAL -->
+    <section id="terminal" class="section container">
+      <p class="eyebrow reveal">05 / RESTRICTED ACCESS (NOT REALLY)</p>
+      <h2 class="section-title reveal">
+        Developer <span class="gradient">terminal.</span>
+      </h2>
+      <p class="muted reveal">Try commands like help, about, or projects.</p>
+
+      <div class="terminal glass reveal">
+        <div class="terminal-header">
+          <div class="terminal-lights">
+            <i></i><i></i><i></i>
+          </div>
+          <span>devananda@observatory: ~</span>
+          <button id="clearTerminal">CLEAR</button>
+        </div>
+
+        <div id="terminalOutput" class="terminal-output" aria-live="polite">
+          <p class="muted">
+            Welcome, traveller! Type <strong>help</strong> to begin.
+          </p>
+        </div>
+
+        <form id="terminalForm" class="terminal-form">
+          <label for="terminalInput">visitor@cosmos:~$</label>
+          <input id="terminalInput" name="command"
+            placeholder="Enter a command..." autocomplete="off">
+          <button type="submit" aria-label="Run command">↵</button>
+        </form>
+
+        <div class="terminal-shortcuts">
+          <button data-command="help">help</button>
+          <button data-command="about">about</button>
+          <button data-command="projects">projects</button>
+          <button data-command="skills">skills</button>
+          <button data-command="contact">contact</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="contact-card glass reveal">
+        <div class="contact-symbol">✦</div>
+
+        <p class="eyebrow">06 / OPEN CHANNEL</p>
+        <h2 class="section-title">
+          Have an idea in <span class="gradient">orbit?</span>
+        </h2>
+
+        <p class="muted">
+          Let's connect, share ideas, and explore new possibilities.
+          I'm always happy to learn and meet creative people.
+        </p>
+
+        <!-- Replace this example email with your actual email. -->
+   <a class="btn primary"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=devananda050@gmail.com&su=Hello%20Devananda"
+   target="_blank"
+   rel="noopener noreferrer">
+   Send a transmission ↗
+</a>
+
+       
+
+        <div class="social-links">
+          <a href="https://github.com/devananda050-alt" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/deva-nanda-t-b-217893334" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+         
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+    <a class="logo" href="#home">✦ Deva Nanda<span>.</span></a>
+    <p class="muted">Made with curiosity and a little code.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+    <small>© <span id="year"></span> Deva Nanda</small>
+  </footer>
+</body>
+</html>
